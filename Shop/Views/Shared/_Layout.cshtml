@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Header -->
+    @await Html.PartialAsync("HeaderPartial")
+    <title>@ViewBag.Title</title>
+
+    @await Html.PartialAsync("CssPartial")
+</head>
+<body>
+    <div class="container mt-5 m-5">
+        @RenderBody()
+    </div>
+    <!-- Footer -->
+    @await Html.PartialAsync("FooterPartial")
+
+    @await Html.PartialAsync("ScriptsPartial")
+</body>
+</html>

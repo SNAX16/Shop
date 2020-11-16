@@ -1,0 +1,12 @@
+﻿
+    <h1>Модельный ряд</h1>
+
+<div class="row mt-5 mb-2">
+
+    @{
+        foreach (Car car in Model.allCars)
+        {
+         @Html.Partial("AllCars",car);
+        }
+    }
+</div>

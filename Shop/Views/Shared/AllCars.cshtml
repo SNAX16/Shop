@@ -1,0 +1,9 @@
+﻿@model Car
+
+<div class="col-lg-4">
+    <img class="image-thumbnail" src="@Model.Img" width="300" height="170" alt="@Model.Name" />
+    <h3>Модель: @Model.Name </h3>
+    <p>@Model.ShortDesk</p>
+    <p> Цена: @Model.Price.ToString("c") </p>
+    <button class="btn btn-outline-success my-2 my-sm-3" type="submit"><font style="vertical-align: central;"><font style="vertical-align: inherit;">Добавить в корзину</font></font></button>
+</div>
