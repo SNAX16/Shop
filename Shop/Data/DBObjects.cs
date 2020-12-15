@@ -30,7 +30,7 @@ namespace Shop.Data
                         Price = 45000,
                         IsFavourite = false,
                         AvaiLable = true,
-                        Category = Categories["Электомобили"]
+                        Category = Categories["Электромобили"]
                     },
                 new Car
                 {
@@ -42,7 +42,7 @@ namespace Shop.Data
                     Price = 55000,
                     IsFavourite = true,
                     AvaiLable = true,
-                    Category = Categories["Электомобили"]
+                    Category = Categories["Электромобили"]
                 },
                  new Car
                  {
